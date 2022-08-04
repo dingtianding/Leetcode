@@ -23,4 +23,4 @@ def firstNonRepeatingCharacter(string):
             return idx
     return -1
 
-# 11
+# 1
