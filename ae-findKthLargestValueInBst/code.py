@@ -9,8 +9,8 @@ class BST:
 
 def findKthLargestValueInBst(tree, k):
     sorted=[]
-    inOrderTrasverse(tree, sorted)
-    return sorted[len(sorted) - k]
+    inOrderTrasverse(tree, sorted)  #call in order trasverse
+    return sorted[len(sorted) - k] # small to biggest to subtract k to get correct value.
     
 def inOrderTrasverse(node, sortedNodeValues):
     if node is None:
