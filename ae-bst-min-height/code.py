@@ -1,3 +1,5 @@
+#E5: make the shortest tree with input
+
 # def minHeightBst(array):
 #     return construct(array, None, 0 , len(array) - 1)
 

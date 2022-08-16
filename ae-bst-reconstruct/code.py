@@ -1,3 +1,6 @@
+#ELI reverse a preOrderT and make it back into a tree
+
+
 # This is an input class. Do not edit.
 class BST:
     def __init__(self, value, left=None, right=None):

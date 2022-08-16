@@ -1,3 +1,5 @@
+#E5 type of traverse
+
 def inOrderTraverse(tree, array):
     if tree is not None:
         inOrderTraverse(tree.left, array) # keep on going left until its None
