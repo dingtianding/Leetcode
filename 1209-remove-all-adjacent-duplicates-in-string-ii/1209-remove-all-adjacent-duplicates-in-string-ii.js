@@ -3,21 +3,26 @@
  * @param {number} k
  * @return {string}
  */
-var removeDuplicates = function(s, k) {
-    let stack = []
-    let chars = s.split('')
-    for ( let i = 0; i < chars.length; i++) {
-        if (i == 0 || chars[i] !== chars[i - 1]) {
-            stack.push(1);
-        } else {
-            stack[stack.length - 1]++;
-            
-            if(stack[stack.length - 1] === k) {
-                stack.pop();
-                chars.splice(i - k + 1, k);
-                i = i - k; // moves back K amount as we just removed K chars.
+var removeDuplicates = function(string, k) {
+    const char_stack = [];
+    const count_stack = [];
+    
+    for (const char of string) {
+        if(char !== char_stack[char_stack.length - 1]){
+            char_stack.push(char);
+            count_stack.push(1);
+        }else{
+            char_stack.push(char);
+            count_stack[count_stack.length - 1] += 1;
+        }
+    
+    
+        if (count_stack[count_stack.length-1] === k){
+            for(let i = 0; i < k; ++ i) {
+                char_stack.pop();
             }
+            count_stack.pop();
         }
     }
-    return chars.join('');
+    return char_stack.join('');
 };
