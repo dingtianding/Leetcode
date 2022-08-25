@@ -16,9 +16,7 @@ var knightDialer = function(moves) {
         8: [1, 3],
         9: [2, 4]
     };  
-    
-    let count = 0;
-    
+        
     let prevDP = new Array(10).fill(1); // [1,1,1,1...]
     
     for (let k = 2; k <= moves; k++) {
