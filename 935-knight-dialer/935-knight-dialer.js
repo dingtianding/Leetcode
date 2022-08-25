@@ -24,19 +24,25 @@ var knightDialer = function(moves) {
         
         for (let currKey = 0; currKey <= 9; currKey++) {
             
-            for (const nextKey of nextKeys[currKey]) {
+            for (const nextKey of nextKeys[currKey]) { // this is possible jump(for 0, its gon be 4 and 6)
                 newDP[currKey] = (newDP[currKey] + prevDP[nextKey]) % mode;
+                // create a newDP in the current key we are by getting current values of newDP adding the prev ones
+                // newDP[currKey] = old amount  starts at 0
+                // prevDP[nextkey] = +1 at 4 then +1 at 6
+                // first loop through all the Keys from 0 to 9
+                // set the newDP as Old
+                // then repeat for number of time as "moves"
             }
         }
         
         prevDP = newDP;
     }
     
-    let ans = 0;
-    
+    let total = 0;
     for (const count of prevDP) {
-        ans = (ans + count) % mode;
+        total = (total + count) % mode; // go through all of the count in prevDP and get a sum
     }
-    
-    return ans;
+        console.log(prevDP)
+
+    return total;
 };
