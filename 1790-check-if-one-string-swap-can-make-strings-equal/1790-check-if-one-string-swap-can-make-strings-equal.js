@@ -14,7 +14,10 @@ var areAlmostEqual = function(s1, s2) {
             dif1 += s1[i];  
             dif2 += s2[i];
         }
+    
     isOnePair = dif1.length == 2 && dif2.length == 2
+    
     isSameChar = dif1[0] == dif2[1] && dif1[1] == dif2[0]
+    
     return isOnePair && isSameChar
 };
