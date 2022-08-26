@@ -42,7 +42,3 @@ function explore(row, col, grid){
     explore(row+1, col, grid)
     explore(row-1, col, grid)
 }
-
-// 1. PDF Sign 
-// 2. Instruction on Payee(Bank Check),Take a picture
-// 3. Post office overnight to Nancy Office afternoon
