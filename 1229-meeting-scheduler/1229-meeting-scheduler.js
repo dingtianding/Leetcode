@@ -5,29 +5,19 @@
  * @return {number[]}
  */
 var minAvailableDuration = function(slots1, slots2, duration) {
-    slots1.sort((a,b) => a[0] - b[0]);
-    slots2.sort((a,b) => a[0] - b[0]);
+    const queue = new MinPriorityQueue ({compare:(a, b) => a[0] > b[0]});
+    for (const slot of slots1)
+        if(slot[1] - slot[0] >= duration) queue.enqueue(slot);
     
-    let i = 0; j = 0;
+    for (const slot of slots2)
+        if(slot[1] - slot[0] >= duration) queue.enqueue(slot);
     
-    while(i < slots1.length && j < slots2.length) {
-        const [start1, end1] = slots1[i]
-        const [start2, end2] = slots2[j]
+    while(queue.size() > 1) {
+        const slot1 = queue.dequeue();
+        slot2 = queue.front();
         
-        start = Math.max(start1, start2)
-        end = Math.min(end1, end2)
-        length = end - start;
-        
-        if(length >= duration) {
-            return [start, start + duration]
-        }
-        
-        if(end1 < end2) {
-            i++;
-        } else {
-            j++
-        }
+        if(slot2[0] + duration <= slot1[1])
+            return [slot2[0], slot2[0] + duration];
     }
-
-    return []
+    return [];
 };
