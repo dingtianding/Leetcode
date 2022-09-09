@@ -16,3 +16,10 @@ var countBits = function(n) {
         }
     return result
 };
+
+// 0 = 0
+// 1 = 01
+// 1 = 10
+// 2 = 11
+// 1 = 100
+// 2 = 101
