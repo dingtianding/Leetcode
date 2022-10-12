@@ -23,13 +23,13 @@ var maxSubArray = function(nums) {
         return nums[0]
     }
     
-    let curSub = []
+    // let curSub = []
     let curSum = 0
     let max = -Infinity
     
     for (i = 0; i < nums.length; i++){
         let num = nums[i]
-        curSub.push(num) //[4, -1, 2, 1, -5, 4]
+        // curSub.push(num) //[4, -1, 2, 1, -5, 4]
         curSum += num// sum = 5
         
         if(curSum > max){ // 5 > 6
