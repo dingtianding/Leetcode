@@ -12,7 +12,8 @@ class Solution:
                     central = True
             elif word[0] < word[1]:
                 answer += 2 * min(count_of_the_word,count[word[1] + word[0]])
-                
+            print(answer,central)
+
         if central:
             answer += 1
         return 2 * answer
