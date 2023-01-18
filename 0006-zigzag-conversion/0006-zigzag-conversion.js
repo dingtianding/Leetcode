@@ -15,41 +15,85 @@
 //  4b. upward is where decrease outerindex/x and increase inner of y til we reach outer index of 0, we want go back 4a.
 //  5. iterate through 2array, build them into a new string, and we ignore any 0/null
 
-let convert = function(s, numRows) {
-    if (numRows == 1) {
-        return s;
-    }
-
-    let n = s.length;
-    let sections = Math.ceil(n / (2 * numRows - 2.0));
-    let numCols = sections * (numRows - 1);
-
-    let matrix = new Array(numRows).fill(0).map(() => new Array(numCols).fill(' '));
+// var convert = function(s, numRows) {
+//     if(numRows === 1) return s;
+//     let array = Array(numRows).fill().map(() => Array(s.length).fill(""));
+//     let newString = ""
+//     let x = 0
+//     let y = 0
     
-    let currRow = 0, currCol = 0;
-    let currStringIndex = 0;
+//     for(let i = 0; i < s.length; i++){
+//         let char = s[i]
+//         let cycle = (numRows - 1) * 2 // 4 = index difference for same pos of a cyle
+//         let halfcycle = cycle / 2 // 2 = their y's difference
+//         array[x][y] = char
+        
+//         if(y % halfcycle === 0 && x < numRows - 1){ // y = 0, 2, 4, 6
+//             x++
+//         } else {
+//             x--
+//             y++
+//         }
+//     }
+//     console.log(array)
+//     for(let i = 0; i < numRows; i++){ 
+//         for(let j = 0; j < s.length;j++){
+//             let char2 = array[i][j]
+//             if(char2 !==""){
+//                 newString += char2
+//             }
+//         }
+//     }
+//     return newString
+// };
+// //.                   index
+// // 0    6      12   = 0, (row-1) * 2, 2 * (row-1)* 2
+// // 1  5 7   11 13   = 1, (row-1) * 2 - 1, 1 + (row-1) * 2, 
+// // 2 4  8 10        = 2, (row-1) * 2 - 1,  1 + (row-1) * 2
+// // 3    9           = 3, 3 + (row-1) * 2
 
-    // Iterate in zig-zag pattern on matrix and fill it with string characters.
-    while (currStringIndex < n) {
-        // Move down.
-        while (currRow < numRows && currStringIndex < n) {
-            matrix[currRow][currCol] = s[currStringIndex];
-            currRow++;
-            currStringIndex++;
-        }
-
-        currRow -= 2;
-        currCol++;
-
-        // Move up (with moving right also).
-        while (currRow > 0 && currCol < numCols && currStringIndex < n) {
-            matrix[currRow][currCol] = s[currStringIndex];
-            currRow--;
-            currCol++;
-            currStringIndex++;
+var convert = function(s, numRows) {
+    if(numRows == 1 || 1 == s.length)return s
+    let i = 0;
+    let a = true;
+    let ans = []
+    while(i < s.length) {
+        if(a) {
+          let k = i+numRows;
+          let sub = s.slice(i,k)
+          i=k;
+          ans.push(sub)
+          a=false;
+        } else {
+            let k = i+numRows-2;
+            let sub = s.slice(i,k).padEnd(numRows-2).split("").reverse().join("")
+            i=k;
+            ans.push(sub)
+            a=true;
         }
     }
-
-    let answer = matrix.map(row => row.join('')).join('');
-    return answer.replaceAll(' ', '');
+    if(numRows == 2){
+        let str = ""
+        for(let i = 0;i<=1;++i){
+            for(let k of ans.filter(x=>x!="")) {
+                if(k[i])str+=k[i]
+            }
+        }
+        return str
+    }
+    let str = ""
+    for(let i = 0;i<numRows;++i){
+        for(let j=0;j<ans.length;++j){
+            if(j%2 == 0){
+             if(ans[j][i]) {
+                str+=ans[j][i]
+              }
+             } else if(j%2 == 1 && i>0 && i <= numRows-2) {
+             let c = ans[j][0]
+             ans[j]=ans[j].slice(1)
+             if(c!=" ")str+=c
+            }
+        }
+    }
+    return str
 };
