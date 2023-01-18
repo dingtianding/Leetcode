@@ -15,39 +15,41 @@
 //  4b. upward is where decrease outerindex/x and increase inner of y til we reach outer index of 0, we want go back 4a.
 //  5. iterate through 2array, build them into a new string, and we ignore any 0/null
 
-var convert = function(s, numRows) {
-    if(numRows === 1) return s;
-    let array = Array(numRows).fill().map(() => Array(s.length).fill(""));
-    let newString = ""
-    let x = 0
-    let y = 0
+let convert = function(s, numRows) {
+    if (numRows == 1) {
+        return s;
+    }
+
+    let n = s.length;
+    let sections = Math.ceil(n / (2 * numRows - 2.0));
+    let numCols = sections * (numRows - 1);
+
+    let matrix = new Array(numRows).fill(0).map(() => new Array(numCols).fill(' '));
     
-    for(let i = 0; i < s.length; i++){
-        let char = s[i]
-        let cycle = (numRows - 1) * 2 // 4 = index difference for same pos of a cyle
-        let halfcycle = cycle / 2 // 2 = their y's difference
-        array[x][y] = char
-        
-        if(y % halfcycle === 0 && x < numRows - 1){ // y = 0, 2, 4, 6
-            x++
-        } else {
-            x--
-            y++
+    let currRow = 0, currCol = 0;
+    let currStringIndex = 0;
+
+    // Iterate in zig-zag pattern on matrix and fill it with string characters.
+    while (currStringIndex < n) {
+        // Move down.
+        while (currRow < numRows && currStringIndex < n) {
+            matrix[currRow][currCol] = s[currStringIndex];
+            currRow++;
+            currStringIndex++;
+        }
+
+        currRow -= 2;
+        currCol++;
+
+        // Move up (with moving right also).
+        while (currRow > 0 && currCol < numCols && currStringIndex < n) {
+            matrix[currRow][currCol] = s[currStringIndex];
+            currRow--;
+            currCol++;
+            currStringIndex++;
         }
     }
-    console.log(array)
-    for(let i = 0; i < numRows; i++){ 
-        for(let j = 0; j < s.length;j++){
-            let char2 = array[i][j]
-            if(char2 !==""){
-                newString += char2
-            }
-        }
-    }
-    return newString
+
+    let answer = matrix.map(row => row.join('')).join('');
+    return answer.replaceAll(' ', '');
 };
-//.                   index
-// 0    6      12   = 0, (row-1) * 2, 2 * (row-1)* 2
-// 1  5 7   11 13   = 1, (row-1) * 2 - 1, 1 + (row-1) * 2, 
-// 2 4  8 10        = 2, (row-1) * 2 - 1,  1 + (row-1) * 2
-// 3    9           = 3, 3 + (row-1) * 2
