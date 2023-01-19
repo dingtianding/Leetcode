@@ -13,7 +13,7 @@ class Solution:
         mostFreqGap = mostFreq - 1 # there is 2 gap between 3 letter
         idle_t = mostFreqGap * n # if we populate with A, we have idle_t of idles. 2 * 2
         
-        while freq and idle_t > 0:
+        while freq and freq[-1] > 0 and idle_t > 0:
             nextFreq = freq.pop() # get 3 for B
             idle_t -= min(mostFreqGap, nextFreq) # 2 < 3, we take 2
             
