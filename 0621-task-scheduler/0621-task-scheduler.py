@@ -1,21 +1,24 @@
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        # frequencies of the tasks
-        frequencies = [0] * 26
-        for t in tasks:
-            frequencies[ord(t) - ord('A')] += 1
+        freq = [0] * 26 #[0,0,0...]
+        # keep count of freq of task
+        for task in tasks:
+            index = ord(task)-ord('A') # A- A = index of 0, B would be 1
+            freq[index] += 1
+            #[3,3,0....]
         
-        frequencies.sort()
-
-        # max frequency
-        f_max = frequencies.pop() # takes the A's frequency
-        idle_time = (f_max - 1) * n # (f-max-1) the gap between A * n(cooldown time) = 4
+        freq.sort() #small to greatest by default [...0,3,3]
         
-        while frequencies and idle_time > 0: 
-            idle_time -= min(f_max - 1, frequencies.pop())# smaller of A's gap and next freq num
-                             # 2, 3
-        idle_time = max(0, idle_time)# greater of 0 or idle_time if positive.
-
-        return idle_time + len(tasks) # 0 + 26
-    
-    ##["A","A","A","A","A","A","B","B","B","B""B"]
+        mostFreq = freq.pop() # get 3 for A
+        mostFreqGap = mostFreq - 1 # there is 2 gap between 3 letter
+        idle_t = mostFreqGap * n # if we populate with A, we have idle_t of idles. 2 * 2
+        
+        while freq and idle_t > 0:
+            nextFreq = freq.pop() # get 3 for B
+            idle_t -= min(mostFreqGap, nextFreq) # 2 < 3, we take 2
+            
+        idle_t = max(0, idle_t)
+            
+        return idle_t + len(tasks)
+            
+        
