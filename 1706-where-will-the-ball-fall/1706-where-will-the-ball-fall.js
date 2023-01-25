@@ -8,15 +8,15 @@ var findBall = function(grid)
 
     const getPosition = function(row, col)
     {
-        if(grid[row][col] === 1)
+        if(grid[row][col] === 1) // if to left
         {
-            if(col === cols-1 || grid[row][col+1] === -1)
+            if(col === cols-1 || grid[row][col+1] === -1)// if the one to left is opp or at the end
                 return -1;
             return col+1;
         }
         else
         {
-            if(col === 0 || grid[row][col-1] === 1)
+            if(col === 0 || grid[row][col-1] === 1) // opposite
                 return -1;
             return col-1;
         }
