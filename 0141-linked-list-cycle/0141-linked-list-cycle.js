@@ -22,7 +22,7 @@
 var hasCycle = function(head) {    
     if (!head) return false;
 
-    let fast = head.next // 1
+    let fast = head // 1
     let slow = head // 1
     
     while(fast){
