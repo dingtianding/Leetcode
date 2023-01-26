@@ -26,7 +26,6 @@ var hasCycle = function(head) {
     let slow = head // 1
     
     while(fast){
-        
         fast = fast.next?.next // 0, 2, -4; null
         slow = slow.next // 2, 0, -4; null
 
