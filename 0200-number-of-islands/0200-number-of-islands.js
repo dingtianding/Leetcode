@@ -2,39 +2,49 @@
  * @param {character[][]} grid
  * @return {number}
  */
+
+// explore helper function
+// r,c passed into visted set
+// if r,c in visted already
+// check if its 1 or 0
+// return false if water(0)
+// create boundary so it doesn't go out of bound
 var numIslands = function(grid) {
-    if(grid == null || grid.length == 0) {
-        return 0;
-    }
+    let visited = new Set();
+    let count = 0
     
-    let height = grid.length
-    let width = grid[0].length
-    let num_islands = 0
-    
-    for(let r = 0; r < height; ++r){
-        for(let c = 0; c < width; ++c) {
-            if(grid[r][c]=="1"){
-                ++num_islands;
-                dfs(grid, r, c)
+    for(let r = 0; r < grid.length; r++){
+        for(let c = 0; c < grid[0].length; c++){
+            if(explore(r,c,visited,grid)){
+                count++
             }
         }
     }
-    
-    return num_islands;
+    return count
 };
 
-var dfs= function(grid, r, c){
-    let height = grid.length;
-    let width = grid[0].length;
+var explore = function(r, c, visited, grid) {
+    let pos = r + ',' + c  // 2 , 2
+    let rowB = 0 <= r && r < grid.length
+    let colB = 0 <= c && c < grid[0].length
     
-    if(r < 0 || c < 0 || r >= height || c >= width ||grid[r][c]=='0'){
-        return
+    if(!rowB || !colB ) return false
+    if(grid[r][c] == "0") return false
+    if(visited.has(pos)){
+        return false 
+    } else {
+        visited.add(pos) //visited ["r,c"]
     }
     
-    grid[r][c] = '0';
-    dfs(grid, r - 1, c)
-    dfs(grid, r + 1, c)
-    dfs(grid, r, c - 1)
-    dfs(grid, r, c + 1)
-
+    explore(r + 1, c, visited, grid)
+    explore(r, c - 1, visited, grid)
+    explore(r - 1, c, visited, grid)
+    explore(r, c + 1, visited, grid)
+    
+    return true
 };
+//
+//[["1","1","0","0","0"],
+// ["1","1","0","0","0"],
+// ["0","0","1","0","0"],
+// ["0","0","0","1","1"]]
