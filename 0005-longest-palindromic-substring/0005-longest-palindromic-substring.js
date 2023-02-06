@@ -23,17 +23,16 @@ var longestPalindrome = function(s) {
     let longest = ""
     
     for(let i = 0; i < s.length; i++){
-        let cur1 = helper(s, i, i) 
-        let cur2 = helper(s, i, i + 1)
+        let cur1 = helper(s, i, i) // aba
+        let cur2 = helper(s, i, i + 1) //  aabb
         let longer = cur1.length > cur2.length ? cur1 : cur2
         
         if(longer.length > longest.length) longest = longer
-        
     }
     return longest
 };
 
-var helper = function(s,i,j) {
+var helper = function(s,i,j) { //make longer as look to right and left for matches
     while(0 <= i && j < s.length && s[i]===s[j]){
         i--
         j++
