@@ -10,22 +10,22 @@ var findMedianSortedArrays = function(nums1, nums2) {
     let lo = 0, hi = x;
     
     while(lo <= hi) {
-        let partitionX = (lo + hi) / 2 | 0, // mid of shorter length
-            partitionY = (x + y + 1) / 2 - partitionX | 0; // mid of longer length
+        let midX = (lo + hi) / 2 | 0, // mid of shorter length
+            midY = (x + y + 1) / 2 - midX | 0; // mid of longer length
         
-        let maxLeftX = partitionX === 0 ? -Infinity : nums1[partitionX - 1];  // left limit for shorter
-        let minRightX = partitionX === x ? Infinity : nums1[partitionX];// right limit for shorter
+        let maxLeftX = midX === 0 ? -Infinity : nums1[midX - 1];  // left limit for shorter
+        let minRightX = midX === x ? Infinity : nums1[midX];// right limit for shorter
         
-        let maxLeftY = partitionY === 0 ? -Infinity : nums2[partitionY - 1]; // left limit for longer
-        let minRightY = partitionY === y ? Infinity : nums2[partitionY]; // right limit for longer
+        let maxLeftY = midY === 0 ? -Infinity : nums2[midY - 1]; // left limit for longer
+        let minRightY = midY === y ? Infinity : nums2[midY]; // right limit for longer
         
         if(maxLeftX <= minRightY && maxLeftY <= minRightX) { // so as long as left limit of Xis less than right limit of Y && left limit is less than right limit of Y
             if((x + y) & 1) return Math.max(maxLeftX, maxLeftY);
             return (Math.max(maxLeftX, maxLeftY) + Math.min(minRightX, minRightY)) / 2;
         } else if(maxLeftX > minRightY) {
-            hi = partitionX - 1;
+            hi = midX - 1;
         } else {
-            lo = partitionX + 1;
+            lo = midX + 1;
         }
     }
 };
