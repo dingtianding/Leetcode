@@ -4,30 +4,31 @@
  * @return {number}
  */
 var findMedianSortedArrays = function(nums1, nums2) {
-    if(nums1.length > nums2.length) return findMedianSortedArrays(nums2, nums1);
-    
-    const x = nums1.length, y = nums2.length;
-    let lo = 0, hi = x;
-    
-    while(lo <= hi) {
-        let midX = (lo + hi) / 2 | 0, // mid of shorter length
-            midY = (x + y + 1) / 2 - midX | 0; // mid of longer length
+    if(nums1.length > nums2.length) return findMedianSortedArrays(nums2, nums1)
+    let x = nums1.length
+    let y = nums2.length
+    let low = 0, high = x
+    while(low <= high) {
+        const partitionX = (high + low) >> 1
+        const partitionY = ((x + y + 1) >> 1) - partitionX
         
-        let maxLeftX = midX === 0 ? -Infinity : nums1[midX - 1];  // left limit for shorter
-        let minRightX = midX === x ? Infinity : nums1[midX];// right limit for shorter
+        const maxX = partitionX == 0 ? Number.NEGATIVE_INFINITY : nums1[partitionX - 1]
+        const maxY = partitionY == 0 ? Number.NEGATIVE_INFINITY : nums2[partitionY - 1]
         
-        let maxLeftY = midY === 0 ? -Infinity : nums2[midY - 1]; // left limit for longer
-        let minRightY = midY === y ? Infinity : nums2[midY]; // right limit for longer
+        const minX = partitionX == nums1.length ? Number.POSITIVE_INFINITY : nums1[partitionX]
+        const minY = partitionY == nums2.length ? Number.POSITIVE_INFINITY : nums2[partitionY ]
         
-        if(maxLeftX <= minRightY && maxLeftY <= minRightX) { // so as long as left limit of Xis less than right limit of Y && left limit is less than right limit of Y
-            if((x + y) & 1) return Math.max(maxLeftX, maxLeftY);
-            return (Math.max(maxLeftX, maxLeftY) + Math.min(minRightX, minRightY)) / 2;
-        } else if(maxLeftX > minRightY) {
-            hi = midX - 1;
-        } else {
-            lo = midX + 1;
-        }
+        if(maxX <= minY && maxY <= minX) {
+            const lowMax = Math.max(maxX, maxY)
+            if( (x + y) % 2 == 1)
+                return lowMax
+            return (lowMax + Math.min(minX, minY)) / 2
+        } else if(maxX < minY) {
+            low = partitionX + 1
+        } else 
+            high = partitionX - 1
     }
+    
 };
 // (1,500,1000) = 500
 // (1,900,901,1000) = 900.5
