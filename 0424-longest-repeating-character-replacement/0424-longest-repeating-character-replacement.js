@@ -10,7 +10,8 @@
 // Space Complexity : O(1)
 var characterReplacement = function(s, k) {
     // Make a map of size 26...
-    var map = [26]
+    var map = []
+    console.log(map)
     // Initialize largestCount, maxlen & beg pointer...
     let largestCount = 0, beg = 0, maxlen = 0;
     // Traverse all characters through the loop...
