@@ -22,7 +22,7 @@ var characterReplacement = function(s, k) {
         
         let window = fast - slow + 1
         
-        if(fast - slow + 1 - largestCount > k){//if gap is greater than k
+        if(window - largestCount > k){//if gap is greater than k
             map[s[slow]] -= 1
             slow += 1
         }
