@@ -25,7 +25,9 @@ var characterReplacement = function(s, k) {
         if(window - largestCount > k){//if gap is greater than k
             map[s[slow]] -= 1
             slow += 1
+            window = fast - slow + 1
         }
+        
         maxLen = Math.max(maxLen, fast - slow + 1)
     }
     return maxLen
