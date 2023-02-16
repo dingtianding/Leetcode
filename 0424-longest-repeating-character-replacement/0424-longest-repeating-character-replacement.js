@@ -28,7 +28,7 @@ var characterReplacement = function(s, k) {
             window = fast - slow + 1
         }
         
-        maxLen = Math.max(maxLen, fast - slow + 1)
+        maxLen = Math.max(maxLen, window)
     }
     return maxLen
 };
