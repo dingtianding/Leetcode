@@ -26,7 +26,6 @@ MinStack.prototype.push = function(val) {
     } else {
         this.mins.push(min)
     }
-    console.log(this.mins)
 };
 
 /**
@@ -35,7 +34,6 @@ MinStack.prototype.push = function(val) {
 MinStack.prototype.pop = function() {
     this.stack.pop();
     this.mins.pop();
-
 };
 
 /**
