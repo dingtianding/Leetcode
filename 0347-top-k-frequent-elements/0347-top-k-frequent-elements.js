@@ -23,10 +23,6 @@ var topKFrequent = function(nums, k) {
     const numArray = Object.keys(count)
     const sorted = numArray.sort((a, b) => count[b] - count[a])
     return sorted.slice(0, k)
-
-
-        
-    
 };
 //nums = [1,2,3].keys sort based on hash. Check syntax of sort
 //count=[3,2,1].values
