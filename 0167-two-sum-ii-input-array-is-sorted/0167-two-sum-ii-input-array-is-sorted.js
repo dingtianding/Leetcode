@@ -16,7 +16,7 @@
 // 4d p1 === p2, return @@@
 
 // time of N
-// space of 1
+// space of 1 + 1 + 1 + 1 + 1
 var twoSum = function(numbers, target) {
     let p1 = 0 // 2
     let p2 = numbers.length - 1// 15
