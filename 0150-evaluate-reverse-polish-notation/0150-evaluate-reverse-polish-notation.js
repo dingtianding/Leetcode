@@ -23,7 +23,6 @@ var evalRPN = function(tokens) {
     let stack = []
     
     for (let token of tokens){
-        console.log(stack)
         if(token==="+"){//+
             let num1= stack.pop()
             let num2= stack.pop()
