@@ -2,23 +2,42 @@
  * @param {number} n
  * @return {string[]}
  */
-const generateParenthesis = (n) => {
-  const res = [];
-    //left = # of (
-    //right = # of )
-const go = (left, right, string) => {
-    if (string.length === 2 * n) {// we used up all the ()
-      res.push(string);
-      return;
-    }
 
-    if (left < n) go(left + 1, right, string+ '('); // # ( is under our limit
-    if (right < left) go(left, right + 1, string + ')');
-  };
-  go(0, 0, '');
+// there equal # of left and right parentheses
+// stacks
+// "(" have to be before ")"
+// 
+// Output: ["((()))","(()())","(())()","()(())","()()()"]
+// Output: ["(())","()()"] n =2 
+// Output: ["()"]
+// total length of each 2n
+// defination well formed
+
+var generateParenthesis = function(n) {
+    const result = [] //
+    let stack = [] // ["(","(",")"]=length
     
-  return res;
+    var generate = function(left = 0, right = 0){//recursion // n =2
+        if(stack.length === 2 * n){ //right + left = 2n
+            let combo = stack.join("")  //"(())"
+            result.push(combo) //["(())"]
+        }
+        
+        if(left < n){ // stack =[] left = 2 = n
+            stack.push("(") //stack ["("]
+            generate(left + 1,right) // ["(","(",")",")"]
+            stack.pop()
+        }
+        
+        if(left > 0 && right < left ){ //  ["(","(",")",")"] left = 2 right = 2
+            stack.push(")") 
+            generate(left,right + 1) 
+            stack.pop()
+        }
+        console.log(stack)
+    };  
+    generate(0, 0) // n
+
+    return result
 };
-
-
 
