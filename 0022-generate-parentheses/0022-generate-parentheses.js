@@ -34,7 +34,6 @@ var generateParenthesis = function(n) {
             generate(left,right + 1) 
             stack.pop()
         }
-        console.log(stack)
     };  
     generate(0, 0) // n
 
