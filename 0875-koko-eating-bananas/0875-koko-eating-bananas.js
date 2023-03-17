@@ -65,7 +65,7 @@ var minEatingSpeed = function (piles, h) {
 // space of 1  
 var minEatingSpeed = function(piles, h) {
     let r = -Infinity
-    let l = 0
+    let l = 1
     for(let pile of piles){
         if (pile > r) r = pile // max speed
     }
