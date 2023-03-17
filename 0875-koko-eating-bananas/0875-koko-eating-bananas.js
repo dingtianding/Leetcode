@@ -44,7 +44,6 @@ var minEatingSpeed = function(piles, h) {
         } else {
             l = mid + 1 // 4
         }     
-        console.log(l,r,mid)
     }
     mid = Math.floor((l/2)+(r/2)) // 4
     
