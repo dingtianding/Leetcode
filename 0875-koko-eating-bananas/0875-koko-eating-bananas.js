@@ -4,7 +4,41 @@
  * @return {number}
  */
 
+function getHours(piles, eatingSpeed) {
+  let sum = 0;
 
+  for (let i = 0; i < piles.length; i++) {
+    sum += Math.ceil(piles[i] / eatingSpeed);
+  }
+
+  return sum;
+}
+
+/**
+ * @param {number[]} piles
+ * @param {number} h
+ * @return {number}
+ */
+var minEatingSpeed = function (piles, h) {
+  let l = 1;
+  let r = Math.max(...piles);
+  let middle;
+  let k;
+
+  while (l <= r) {
+    middle = Math.ceil((r - l) / 2) + l;
+
+    k = getHours(piles, middle);
+
+    if (k > h) {
+      l = middle + 1;
+    } else if (k <= h) {
+      r = middle - 1;
+    }
+  }
+
+  return l;
+};
 //Input: piles = [3,6,7,11], h = 8
 //              1,2,2,3   = 8
 //Output: 4(speed)
@@ -56,9 +90,6 @@ var canEat = function(piles, h, s) { // speed of 4
         time = Math.ceil(pile / s) // 6 / 4 = 1.5 = 2
         total += time // 8
     }
-    if(total > h) { // 8 = 8
-        return false
-    } else {
-        return true
-    }
+    return total <= h // 8 = 8
+
 };
