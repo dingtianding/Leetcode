@@ -23,8 +23,12 @@
 // time of log N
 // space of 1
 var findMin = function(nums) {
+    
     let l = 0
     let r = nums.length - 1
+    
+    if (nums[l] < nums[r]) return nums[l]
+
     
     while(l < r){
         let mid = Math.floor(l / 2 + r / 2)
