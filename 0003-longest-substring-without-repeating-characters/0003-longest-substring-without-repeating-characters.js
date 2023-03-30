@@ -33,6 +33,7 @@ var lengthOfLongestSubstring = function(s) {
     while(p2 < s.length){
         let c2 = s[p2] // a
         hash[c2] ? hash[c2]+=1 : hash[c2] = 1
+        
         while(hash[c2] > 1){
             let c1 = s[p1] // a
             hash[c1] -= 1
