@@ -20,16 +20,13 @@
 // time N + M = N 
 // space 2 = 1
 var hasCycle = function(head) {    
-    if (!head) return false;
-
-    let fast = head // 1
-    let slow = head // 1
-    
+    if(!head) return false
+    let slow = head
+    let fast = head
     while(fast){
-        fast = fast.next?.next // 0, 2, -4; null
-        slow = slow.next // 2, 0, -4; null
-
-        if(fast === slow) return true
-          }
+        fast= fast.next?.next
+        slow= slow.next
+        if(slow===fast) return true
+    }
     return false
 };
