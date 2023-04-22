@@ -54,7 +54,6 @@ const checkInclusion = function (s1, s2) {
 		chars[s1.charCodeAt(i) - a]--;
 
 	for (let i = 0; i < s2.length; i++) {
-		console.log(chars,s2[i])
 		chars[s2.charCodeAt(i) - a]++;
 
 		
