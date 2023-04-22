@@ -33,7 +33,7 @@ var checkInclusion = function(s1, s2) {
             let char = s2[i2]
             if(hash[char]) hash[char] -= 1 
         }
-        console.log(hash)
+        
         let match = true
         for(let i3 = 0; i3 < s1.length; i3++){
             let char = s1[i3]
