@@ -18,26 +18,27 @@
 //
 var checkInclusion = function(s1, s2) {
     let windowSize = s1.length - 1 // 1
+    let hash = {}
+    
+    for(let i = 0; i < s1.length; i++){
+        let char = s1[i]
+            hash[char] ? hash[char] += 1 : hash[char] = 1
+    }//build
 
     for(let j = 0; j < s2.length - windowSize; j++){
-        let hash = {}
-    
-        for(let i = 0; i < s1.length; i++){
-            let char = s1[i]
-            hash[char] ? hash[char] += 1 : hash[char] = 1// hash[a]=1,hash[b]=1
-        }//build
-        
+        let copy = {...hash}        
         let p1 = j, p2 = j + windowSize
-        
+        let match = true
+
         for(let i2 = p1; i2 <= p2;i2++){
             let char = s2[i2]
-            if(hash[char]) hash[char] -= 1 
+            copy[char] ? copy[char] -= 1 : match = false
+            if(!match) break
         }
-        
-        let match = true
+        if(!match) continue
         for(let i3 = 0; i3 < s1.length; i3++){
             let char = s1[i3]
-            if(hash[char]!=0) match = false
+            if(copy[char]!=0) match = false
         }
         if(match) return true
     }
