@@ -12,6 +12,7 @@
  */
 var isBalanced = function(root) {
     
+
     
     let dfs = function(node) {
         if(!node) return 0;
@@ -23,6 +24,7 @@ var isBalanced = function(root) {
         return Math.max(left, right);
     }
     
-    return dfs(root)==Infinity? false: true;
+    return dfs(root) == Infinity ? false: true;
+
 
 };
