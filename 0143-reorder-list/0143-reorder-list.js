@@ -43,4 +43,5 @@ var reorderList = function(head) {
         second.next = first;
         second = temp;
     }
+    console.log(head)
 };
