@@ -22,9 +22,10 @@ var reorderList = function(head) {
     
     let prev = null
     let curr = slow.next
-    
+    let temp = null
+
     while (curr) {     
-        let temp = curr.next
+        temp = curr.next
         curr.next = prev
         prev = curr
         curr = temp
@@ -33,7 +34,6 @@ var reorderList = function(head) {
 
     let first = head
     let second = prev
-    let temp = null
     while (second){
         temp = first.next
         first.next = second;
@@ -43,5 +43,4 @@ var reorderList = function(head) {
         second.next = first;
         second = temp;
     }
-    console.log(head)
 };
