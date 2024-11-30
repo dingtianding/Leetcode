@@ -8,8 +8,21 @@ var isAnagram = function(s, t) {
         return false;
     }
     
-    let sSort = s.split("").sort().join();
-    let tSort = t.split("").sort().join();
+    const count = new Array(26).fill(0);
     
-    return sSort == tSort
+    for(let i = 0; i < s.length; i++) {
+        CurrentLetterSUnicode = s.charCodeAt(i)
+        LetterAUnicode ='a'.charCodeAt(0)
+        LocationCurLetter = CurrentLetterSUnicode - LetterAUnicode
+        count[LocationCurLetter]++;
+        
+        CurrentLetterSUnicode = t.charCodeAt(i)
+        LetterAUnicode ='a'.charCodeAt(0)
+        LocationCurLetter = CurrentLetterSUnicode - LetterAUnicode
+        count[LocationCurLetter]--;
+
+    }
+    
+    
+    return count.every(val => val === 0);
 };
