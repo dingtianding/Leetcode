@@ -9,6 +9,7 @@ class Solution(object):
         for num in nums:
             count[num] = 1 + count.get(num, 0)
             
+        
         heap = []
         for num in count.keys():
             heapq.heappush(heap, (count[num], num))
