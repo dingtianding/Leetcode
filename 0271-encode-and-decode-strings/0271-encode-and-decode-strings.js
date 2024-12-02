@@ -5,21 +5,11 @@
  * @return {string}
  */
 var encode = function(strs) {
-    if (strs.length === 0 ) return "";
-    
-    let sizes = [], res =""
+    let res = "";
     
     for (let s of strs) {
-        sizes.push(s.length);
+        res += s.length + "#" + s;
     }
-    for (let sz of sizes){
-        res += sz + ',';
-    }
-    res += '#'
-    for (let s of strs) {
-        res += s;
-    }
-    console.log(res)
     return res;
 };
 
@@ -30,24 +20,24 @@ var encode = function(strs) {
  * @return {string[]}
  */
 var decode = function(str) {
-    if (str.length === 0) return []
     
-    let sizes = [], res = [], i = 0;
+    let res = [];
     
-    while(str[i] !== '#') {
-        let cur = "";
-        while(str[i]!== ','){
-            cur += str[i];
-            i++
+    let i = 0;
+    
+    while(i < str.length){
+        let j = i;
+        while (str[j] !== '#') {
+            j++;
         }
-        sizes.push(parseInt(cur));
-        i++;
+        let length = parseInt(str.substring(i, j));
+        
+        i = j + 1;
+        j = i + length;
+        res.push(str.substring(i, j));
+        i = j        
     }
-    i++;
-    for(let sz of sizes){
-        res.push(str.substr(i, sz));
-        i+=sz;
-    }
+    
     return res
     
 };
