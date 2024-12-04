@@ -4,13 +4,24 @@
  * @param {string[]} strs
  * @return {string}
  */
-var encode = function(strs) {
-    let res = "";
-    
+
+// Input: dummy_input = ["Hello#","World"]
+// "#5Hello#5World"
+// Hello + #(indicate end/beg of a string) + 5(length of a string)
+// 
+// time n
+// space of n res return res
+//
+//
+var encode = function(strs) {//["Hello","World"]
+    let res = ""
     for (let s of strs) {
-        res += s.length + "#" + s;
+        len = s.length //10
+        res += len
+        res += "#"
+        res += s
     }
-    return res;
+    return res
 };
 
 /**
@@ -19,27 +30,25 @@ var encode = function(strs) {
  * @param {string} s
  * @return {string[]}
  */
-var decode = function(str) {
-    
-    let res = [];
-    
+var decode = function(s) {//5#Hello"5#World"
+    //0#2#vn
+    let res = [] 
     let i = 0;
     
-    while(i < str.length){
+    while(i < s.length){
         let j = i;
-        while (str[j] !== '#') {
+        while(s[j] !== "#"){
             j++;
         }
-        let length = parseInt(str.substring(i, j));
-        
-        i = j + 1;
-        j = i + length;
-        res.push(str.substring(i, j));
-        i = j        
+        let length = parseInt(s.substring(i,j))
+        i = j + 1
+        j = i + length
+        string = s.substring(i, j)
+        res.push(string)
+        i = j
     }
     
     return res
-    
 };
 
 /**
