@@ -5,12 +5,15 @@ class Solution:
         for c in tokens:
     
             if c ==  "+":
-                stack.append(stack.pop() + stack.pop())
+                sum = stack.pop() + stack.pop()
+                stack.append(sum)
             elif c == "-":
                 a, b = stack.pop(), stack.pop()
-                stack.append(b - a)
+                diff = b - a
+                stack.append(diff)
             elif c == "*":
-                stack.append(stack.pop() * stack.pop())
+                prod = stack.pop() * stack.pop()
+                stack.append(prod)
             elif c == "/":
                 a, b = stack.pop(), stack.pop()
                 stack.append(int(float(b) / a))
