@@ -3,16 +3,15 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        p1 = 0 #pointer for long
-        p2 = 0 #pointer for short
-        nums1_copy = nums1[:m] #long string only the number
+        reader1 = 0  # reader for nums1 (original elements)
+        reader2 = 0  # reader for nums2 (elements to merge in)
+        nums1_copy = nums1[:m]  # make a copy of the first m elements of nums1 (original array)
 
-        for p in range(n + m):
-            
-            if p2 >= n or (p1 < m and nums1_copy[p1] <= nums2[p2]):
-                nums1[p] = nums1_copy[p1]
-                p1 += 1
+        for writer in range(m + n):
+            if reader2 >= n or (reader1 < m and nums1_copy[reader1] <= nums2[reader2]):
+                nums1[writer] = nums1_copy[reader1]
+                reader1 += 1
             else:
-                nums1[p] = nums2[p2]
-                p2 += 1
+                nums1[writer] = nums2[reader2]
+                reader2 += 1
          
