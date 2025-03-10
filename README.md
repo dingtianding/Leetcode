@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/dingtianding/Leetcode/tree/master/0027-remove-element) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dingtianding/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -29,6 +30,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/dingtianding/Leetcode/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
 ## Sorting
 |  |
