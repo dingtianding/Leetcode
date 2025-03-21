@@ -4,25 +4,17 @@
  * @return {boolean}
  */
 var isAnagram = function(s, t) {
-    if (s.length !== t.length){
-        return false;
-    }
-    
-    const count = new Array(26).fill(0);
-    
-    for(let i = 0; i < s.length; i++) {
-        CurrentLetterSUnicode = s.charCodeAt(i)
-        LetterAUnicode ='a'.charCodeAt(0)
-        LocationCurLetter = CurrentLetterSUnicode - LetterAUnicode
-        count[LocationCurLetter]++;
-        
-        CurrentLetterSUnicode = t.charCodeAt(i)
-        LetterAUnicode ='a'.charCodeAt(0)
-        LocationCurLetter = CurrentLetterSUnicode - LetterAUnicode
-        count[LocationCurLetter]--;
+    let hash = {}
+    if (s.length !== t.length) return false
 
+    for(let i = 0; i < s.length; i++) {
+        hash[s[i]] = (hash[s[i]] || 0) + 1;
     }
+    for(let i = 0; i < t.length; i++) {
+        if (!hash[t[i]]) return false;
+        hash[t[i]]--;
+        // console.log(hash)
+    }
+    return true
     
-    
-    return count.every(val => val === 0);
 };
