@@ -12,6 +12,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/dingtianding/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Math
 |  |
 | ------- |
@@ -47,6 +48,7 @@
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
+| [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Hash Table
 |  |
 | ------- |
