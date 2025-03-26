@@ -13,6 +13,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/dingtianding/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/dingtianding/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Math
 |  |
