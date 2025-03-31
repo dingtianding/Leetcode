@@ -19,6 +19,7 @@
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/dingtianding/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 ## Stack
@@ -34,6 +35,7 @@
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/dingtianding/Leetcode/tree/master/0125-valid-palindrome) |
@@ -60,6 +62,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
 | [0128-longest-consecutive-sequence](https://github.com/dingtianding/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
