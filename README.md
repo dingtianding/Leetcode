@@ -13,6 +13,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/dingtianding/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/dingtianding/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2262-solving-questions-with-brainpower](https://github.com/dingtianding/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -22,6 +23,7 @@
 | ------- |
 | [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/dingtianding/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 ## Stack
 |  |
@@ -58,6 +60,7 @@
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Hash Table
@@ -67,6 +70,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/dingtianding/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Divide and Conquer
 |  |
@@ -97,4 +101,12 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dingtianding/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Binary Search
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
