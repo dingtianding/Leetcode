@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/dingtianding/Leetcode/tree/master/0027-remove-element) |
+| [0036-valid-sudoku](https://github.com/dingtianding/Leetcode/tree/master/0036-valid-sudoku) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dingtianding/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dingtianding/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -68,6 +69,7 @@
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
+| [0036-valid-sudoku](https://github.com/dingtianding/Leetcode/tree/master/0036-valid-sudoku) |
 | [0128-longest-consecutive-sequence](https://github.com/dingtianding/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/dingtianding/Leetcode/tree/master/0133-clone-graph) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
@@ -123,4 +125,8 @@
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/dingtianding/Leetcode/tree/master/0133-clone-graph) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/dingtianding/Leetcode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
