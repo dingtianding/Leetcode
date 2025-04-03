@@ -22,7 +22,7 @@ class Solution:
         if not points:
             return 0
         points.sort(key = lambda x : x[1])
-        print(points)
+        # print(points)
         arrows = 1
         first_end = points[0][1]
         for x_start, x_end in points:
