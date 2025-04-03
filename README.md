@@ -16,6 +16,7 @@
 | [0238-product-of-array-except-self](https://github.com/dingtianding/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0643-maximum-average-subarray-i](https://github.com/dingtianding/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/dingtianding/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [2262-solving-questions-with-brainpower](https://github.com/dingtianding/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -132,4 +133,8 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/dingtianding/Leetcode/tree/master/0036-valid-sudoku) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/dingtianding/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
