@@ -21,6 +21,7 @@
 | [2262-solving-questions-with-brainpower](https://github.com/dingtianding/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/dingtianding/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
+| [3227-find-missing-and-repeated-values](https://github.com/dingtianding/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Math
 |  |
@@ -30,6 +31,7 @@
 | [0202-happy-number](https://github.com/dingtianding/Leetcode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/dingtianding/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
+| [3227-find-missing-and-repeated-values](https://github.com/dingtianding/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Stack
 |  |
 | ------- |
@@ -82,6 +84,7 @@
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3227-find-missing-and-repeated-values](https://github.com/dingtianding/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -136,6 +139,7 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/dingtianding/Leetcode/tree/master/0036-valid-sudoku) |
+| [3227-find-missing-and-repeated-values](https://github.com/dingtianding/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Sliding Window
 |  |
 | ------- |
