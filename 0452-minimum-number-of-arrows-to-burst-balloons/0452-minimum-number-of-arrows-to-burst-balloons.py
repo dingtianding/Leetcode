@@ -28,5 +28,5 @@ class Solution:
                 merged[-1][0] = max(merged[-1][0],point[0])
                 merged[-1][1] = min(merged[-1][1],point[1])
 
-        print(merged)
+        # print(merged)
         return len(merged)
