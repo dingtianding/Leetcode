@@ -37,6 +37,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/dingtianding/Leetcode/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dingtianding/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dingtianding/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Monotonic Stack
@@ -49,6 +50,7 @@
 | [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0071-simplify-path](https://github.com/dingtianding/Leetcode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/dingtianding/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
