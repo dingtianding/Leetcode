@@ -19,6 +19,7 @@
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0643-maximum-average-subarray-i](https://github.com/dingtianding/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/dingtianding/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1833-find-the-highest-altitude](https://github.com/dingtianding/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2262-solving-questions-with-brainpower](https://github.com/dingtianding/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/dingtianding/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
@@ -112,6 +113,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/dingtianding/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [1833-find-the-highest-altitude](https://github.com/dingtianding/Leetcode/tree/master/1833-find-the-highest-altitude) |
 ## String Matching
 |  |
 | ------- |
