@@ -137,6 +137,7 @@
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/dingtianding/Leetcode/tree/master/0133-clone-graph) |
+| [0904-leaf-similar-trees](https://github.com/dingtianding/Leetcode/tree/master/0904-leaf-similar-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -160,4 +161,12 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/dingtianding/Leetcode/tree/master/0155-min-stack) |
+## Tree
+|  |
+| ------- |
+| [0904-leaf-similar-trees](https://github.com/dingtianding/Leetcode/tree/master/0904-leaf-similar-trees) |
+## Binary Tree
+|  |
+| ------- |
+| [0904-leaf-similar-trees](https://github.com/dingtianding/Leetcode/tree/master/0904-leaf-similar-trees) |
 <!---LeetCode Topics End-->
