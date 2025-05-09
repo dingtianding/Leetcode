@@ -58,6 +58,7 @@
 | [0125-valid-palindrome](https://github.com/dingtianding/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
+| [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/dingtianding/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/dingtianding/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Two Pointers
@@ -80,6 +81,7 @@
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Hash Table
@@ -95,6 +97,7 @@
 | [0219-contains-duplicate-ii](https://github.com/dingtianding/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
+| [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3227-find-missing-and-repeated-values](https://github.com/dingtianding/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
@@ -105,6 +108,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
+| [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -115,6 +119,7 @@
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dingtianding/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -180,4 +185,8 @@
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/dingtianding/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 <!---LeetCode Topics End-->
