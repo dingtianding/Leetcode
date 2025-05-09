@@ -18,7 +18,6 @@ class Solution:
             res.extend([char1, char2])
             count1 += 1
             count2 += 1
-            print(res)
 
             if count1 < 0:
                 heapq.heappush(max_heap, (count1, char1))
