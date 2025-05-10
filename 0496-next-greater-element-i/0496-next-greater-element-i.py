@@ -14,6 +14,6 @@ class Solution:
             location[top2] = -1#{1:3,3:4,2:-1,4:-1}
         result = []
         for num in nums1:
-            result.append(location.get(num, -1))
+            result.append(location.get(num))
 
         return result        
