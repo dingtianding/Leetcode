@@ -63,6 +63,7 @@
 | [0125-valid-palindrome](https://github.com/dingtianding/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
+| [0567-permutation-in-string](https://github.com/dingtianding/Leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/dingtianding/Leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/dingtianding/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -77,6 +78,7 @@
 | [0125-valid-palindrome](https://github.com/dingtianding/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/dingtianding/Leetcode/tree/master/0202-happy-number) |
+| [0567-permutation-in-string](https://github.com/dingtianding/Leetcode/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
 | ------- |
@@ -103,6 +105,7 @@
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/dingtianding/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0567-permutation-in-string](https://github.com/dingtianding/Leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3227-find-missing-and-repeated-values](https://github.com/dingtianding/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -173,6 +176,7 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/dingtianding/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/dingtianding/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0567-permutation-in-string](https://github.com/dingtianding/Leetcode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/dingtianding/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/dingtianding/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Design
