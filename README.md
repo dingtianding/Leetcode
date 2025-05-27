@@ -65,6 +65,7 @@
 | ------- |
 | [0012-integer-to-roman](https://github.com/dingtianding/Leetcode/tree/master/0012-integer-to-roman) |
 | [0020-valid-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dingtianding/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0071-simplify-path](https://github.com/dingtianding/Leetcode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/dingtianding/Leetcode/tree/master/0125-valid-palindrome) |
@@ -131,6 +132,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0022-generate-parentheses) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dingtianding/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/dingtianding/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
 ## Greedy
@@ -216,4 +218,8 @@
 |  |
 | ------- |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/dingtianding/Leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
