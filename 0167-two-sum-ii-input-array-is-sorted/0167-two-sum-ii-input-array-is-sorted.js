@@ -3,36 +3,35 @@
  * @param {number} target
  * @return {number[]}
  */
+//  array already sorted 
+// two pointer left and right
+// add together to get sum
+// if sum greater 
+// move right --
+// else move left ++
+// if it equal we return index + 1(peasant's way of saying positions in the array cuz true gigagchad starts from 0)
+// one solution when we find the two sums, we can just return and end it there
+// pointer can't be on the indices.
+// performance two N
+// space of 1
 
-// two sums. 1. Brute Force. 2. Hash 3. Two Pointer (2N)
-// do sort the array then using two pointer
-// 
-// 1. p1 = 0, p2 =length -1
-// 2. num1 + num2 = sum
-// 3. sum vs target
-// 4. target > sum, we want bigger number, move p1 to the right to access bigger number(sorted small to large)
-// 4b. else move p2 in the opposite
-// 4c target===sum, return[p1,p2]
-// 4d p1 === p2, return @@@
-
-// time of N
-// space of 1 + 1 + 1 + 1 + 1
 var twoSum = function(numbers, target) {
-    let p1 = 0 // 2
-    let p2 = numbers.length - 1// 15
-    
-    while(p1 < p2){// p2 > p1
-        let num1  = numbers[p1]// 2
-        let num2  = numbers[p2]// 7
-        let sum = num1 + num2 // 9
+    let l = 0
+    let r = numbers.length - 1
 
-        if(sum > target){ // 9>9
-            p2--
-        } else if(sum < target){
-            p1++
+    while(l < r){
+        let num1 = numbers[l]
+        let num2 = numbers[r]
+        let sum = num1 + num2
+
+        if(sum === target) return [l + 1, r + 1]
+
+        if(sum > target){
+            r--
         } else {
-            return [p1 + 1,p2 + 1]
-        }     
+            l++
+        }
     }
+    return false
     
 };
