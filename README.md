@@ -10,6 +10,7 @@
 | [0027-remove-element](https://github.com/dingtianding/Leetcode/tree/master/0027-remove-element) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/dingtianding/Leetcode/tree/master/0036-valid-sudoku) |
+| [0056-merge-intervals](https://github.com/dingtianding/Leetcode/tree/master/0056-merge-intervals) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dingtianding/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dingtianding/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -95,6 +96,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/dingtianding/Leetcode/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/dingtianding/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/dingtianding/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dingtianding/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
