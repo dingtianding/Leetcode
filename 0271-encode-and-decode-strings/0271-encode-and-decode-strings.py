@@ -21,9 +21,9 @@ class Codec:
             j = i
             while s[j] != "#":
                 j += 1
-            length = int(s[i:j])#4 or 10
-            res.append(s[j + 1: j + 1 +length])
-            i = j + 1 + length
+            length = int(s[i:j])#get lenght in form of int(4 or 10)
+            res.append(s[j + 1: j + 1 +length]) #slice the j+1 start to j+1+length end
+            i = j + 1 + length #move i pointer
 
         return res
 
