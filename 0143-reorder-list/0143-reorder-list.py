@@ -18,7 +18,7 @@ class Solution:
 
         second = slow.next
         slow.next = None
-        prev = slow.next
+        prev = None
         while second:
             tmp = second.next # stanard reverse the list 1. variable for next
             second.next = prev # 2. next pointer to prev
