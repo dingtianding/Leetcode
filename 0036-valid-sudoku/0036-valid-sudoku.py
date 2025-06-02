@@ -1,33 +1,20 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        N = 9
+        cols = collections.defaultdict(set)
+        rows = collections.defaultdict(set)
+        sqrs = collections.defaultdict(set)#0-2, 0-2 = [0][0] on matrix, [9][9] should be[2][2]
 
-        # Use hash set to record the status
-        rows = [set() for _ in range(N)]
-        cols = [set() for _ in range(N)]
-        boxes = [set() for _ in range(N)]
 
-        for r in range(N):
-            for c in range(N):
-                val = board[r][c]
-                # Check if the position is filled with number
-                if val == ".":
+        for r in range(9):
+            for c in range(9):
+                if board[r][c] == ".":
                     continue
-
-                # Check the row
-                if val in rows[r]:
+                if (board[r][c] in rows[r]) or (board[r][c] in cols[c]) or (board[r][c] in sqrs[r//3, c//3]):   
+                    print(r,c,board[r][c])
+                    print(cols)
                     return False
-                rows[r].add(val)
-
-                # Check the column
-                if val in cols[c]:
-                    return False
-                cols[c].add(val)
-
-                # Check the box
-                idx = (r // 3) * 3 + c // 3
-                if val in boxes[idx]:
-                    return False
-                boxes[idx].add(val)
-
+                cols[c].add(board[r][c])
+                rows[r].add(board[r][c])
+                sqrs[(r//3, c//3)].add(board[r][c])
         return True
+        
