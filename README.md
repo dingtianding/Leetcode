@@ -129,6 +129,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/dingtianding/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/dingtianding/Leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/dingtianding/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/dingtianding/Leetcode/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/dingtianding/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -227,6 +228,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/dingtianding/Leetcode/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/dingtianding/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [1023-time-based-key-value-store](https://github.com/dingtianding/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -246,6 +248,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/dingtianding/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/dingtianding/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/dingtianding/Leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/dingtianding/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -282,4 +285,8 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/dingtianding/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
