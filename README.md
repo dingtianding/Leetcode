@@ -200,6 +200,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/dingtianding/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0133-clone-graph](https://github.com/dingtianding/Leetcode/tree/master/0133-clone-graph) |
 | [0904-leaf-similar-trees](https://github.com/dingtianding/Leetcode/tree/master/0904-leaf-similar-trees) |
 ## Breadth-First Search
@@ -235,10 +236,12 @@
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/dingtianding/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/dingtianding/Leetcode/tree/master/0904-leaf-similar-trees) |
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/dingtianding/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/dingtianding/Leetcode/tree/master/0904-leaf-similar-trees) |
 ## Linked List
 |  |
@@ -289,4 +292,8 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/dingtianding/Leetcode/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
