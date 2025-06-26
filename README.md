@@ -156,6 +156,7 @@
 | [0169-majority-element](https://github.com/dingtianding/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/dingtianding/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
+| [1708-design-parking-system](https://github.com/dingtianding/Leetcode/tree/master/1708-design-parking-system) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -237,6 +238,7 @@
 | [0155-min-stack](https://github.com/dingtianding/Leetcode/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/dingtianding/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [1023-time-based-key-value-store](https://github.com/dingtianding/Leetcode/tree/master/1023-time-based-key-value-store) |
+| [1708-design-parking-system](https://github.com/dingtianding/Leetcode/tree/master/1708-design-parking-system) |
 ## Tree
 |  |
 | ------- |
@@ -303,4 +305,8 @@
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/dingtianding/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [1150-two-sum-bsts](https://github.com/dingtianding/Leetcode/tree/master/1150-two-sum-bsts) |
+## Simulation
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/dingtianding/Leetcode/tree/master/1708-design-parking-system) |
 <!---LeetCode Topics End-->
