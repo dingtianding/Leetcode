@@ -35,6 +35,7 @@
 | [0496-next-greater-element-i](https://github.com/dingtianding/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0643-maximum-average-subarray-i](https://github.com/dingtianding/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/dingtianding/Leetcode/tree/master/0739-daily-temperatures) |
+| [0917-boats-to-save-people](https://github.com/dingtianding/Leetcode/tree/master/0917-boats-to-save-people) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/dingtianding/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1833-find-the-highest-altitude](https://github.com/dingtianding/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2262-solving-questions-with-brainpower](https://github.com/dingtianding/Leetcode/tree/master/2262-solving-questions-with-brainpower) |
@@ -106,6 +107,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dingtianding/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/dingtianding/Leetcode/tree/master/0202-happy-number) |
 | [0567-permutation-in-string](https://github.com/dingtianding/Leetcode/tree/master/0567-permutation-in-string) |
+| [0917-boats-to-save-people](https://github.com/dingtianding/Leetcode/tree/master/0917-boats-to-save-people) |
 | [1150-two-sum-bsts](https://github.com/dingtianding/Leetcode/tree/master/1150-two-sum-bsts) |
 ## Sorting
 |  |
@@ -121,6 +123,7 @@
 | [0435-non-overlapping-intervals](https://github.com/dingtianding/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
+| [0917-boats-to-save-people](https://github.com/dingtianding/Leetcode/tree/master/0917-boats-to-save-people) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/dingtianding/Leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3430-count-days-without-meetings](https://github.com/dingtianding/Leetcode/tree/master/3430-count-days-without-meetings) |
 ## Hash Table
@@ -175,6 +178,7 @@
 | [0435-non-overlapping-intervals](https://github.com/dingtianding/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
+| [0917-boats-to-save-people](https://github.com/dingtianding/Leetcode/tree/master/0917-boats-to-save-people) |
 ## Prefix Sum
 |  |
 | ------- |
