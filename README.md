@@ -30,6 +30,7 @@
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [0271-encode-and-decode-strings](https://github.com/dingtianding/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/dingtianding/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 | [0435-non-overlapping-intervals](https://github.com/dingtianding/Leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dingtianding/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0496-next-greater-element-i](https://github.com/dingtianding/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -201,6 +202,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dingtianding/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/dingtianding/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
+| [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 | [1023-time-based-key-value-store](https://github.com/dingtianding/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1150-two-sum-bsts](https://github.com/dingtianding/Leetcode/tree/master/1150-two-sum-bsts) |
 ## Bit Manipulation
@@ -243,6 +245,7 @@
 | [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/dingtianding/Leetcode/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/dingtianding/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 | [1023-time-based-key-value-store](https://github.com/dingtianding/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1708-design-parking-system](https://github.com/dingtianding/Leetcode/tree/master/1708-design-parking-system) |
 ## Tree
@@ -298,6 +301,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/dingtianding/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -315,4 +319,8 @@
 |  |
 | ------- |
 | [1708-design-parking-system](https://github.com/dingtianding/Leetcode/tree/master/1708-design-parking-system) |
+## Data Stream
+|  |
+| ------- |
+| [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 <!---LeetCode Topics End-->
