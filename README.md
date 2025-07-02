@@ -143,6 +143,7 @@
 | [0242-valid-anagram](https://github.com/dingtianding/Leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dingtianding/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/dingtianding/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0359-logger-rate-limiter](https://github.com/dingtianding/Leetcode/tree/master/0359-logger-rate-limiter) |
 | [0496-next-greater-element-i](https://github.com/dingtianding/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/dingtianding/Leetcode/tree/master/0567-permutation-in-string) |
 | [0778-reorganize-string](https://github.com/dingtianding/Leetcode/tree/master/0778-reorganize-string) |
@@ -245,6 +246,7 @@
 | [0146-lru-cache](https://github.com/dingtianding/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/dingtianding/Leetcode/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/dingtianding/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0359-logger-rate-limiter](https://github.com/dingtianding/Leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 | [1023-time-based-key-value-store](https://github.com/dingtianding/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1708-design-parking-system](https://github.com/dingtianding/Leetcode/tree/master/1708-design-parking-system) |
@@ -322,5 +324,6 @@
 ## Data Stream
 |  |
 | ------- |
+| [0359-logger-rate-limiter](https://github.com/dingtianding/Leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/dingtianding/Leetcode/tree/master/0362-design-hit-counter) |
 <!---LeetCode Topics End-->
